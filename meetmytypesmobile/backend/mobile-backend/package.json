@@ -4,6 +4,7 @@
   "description": "",
   "main": "getprofile.js",
   "scripts": {
+    "watch": "nodemon ./getprofile.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "sls offline start --port 4500"
   },
@@ -11,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.2",
     "serverless": "^1.67.0",
     "serverless-http": "^2.3.2",
     "serverless-offline": "^6.0.0"
