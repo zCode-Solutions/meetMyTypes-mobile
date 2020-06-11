@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "userProfiles"
+        "userProfiles",
+        "App center"
     ]
 }
